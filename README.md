@@ -37,11 +37,9 @@ To keep things simple and compatible, I chose the [GNU GPLv3](https://opensource
 If you want to try it out, download the `dashicons-extended.css` and `font` directories and place them in a public folder on your web site. Then, enqueue the script in the WP Admin head, and optionally, the front end as desired.
 
 ```
-<?php
 add_action( 'admin_enqueue_scripts', function() {
    wp_enqueue_style( 'dashicons-extended', 'link/to/dashicons-extended.css' );
 });
-?>
 ```
 
 You can then reference the icons as you normally would for standard [dashicons](https://developer.wordpress.org/resource/dashicons/) in WordPress.
@@ -72,7 +70,7 @@ add_action( 'init', 'my_custom_post_type' );
 
 ## Legal
 
-All icons used in this set were either licensed royalty-free, were used from an existing GPL-compatible set and/or used with original author permission. Icons requiring attribution listed below.
+All icons used in this set were either (to the best of my understanding and diligence) licensed royalty-free, were used from an existing GPL-compatible set and/or used with original author permission. Icons requiring attribution noted below.
 
 ### Attribution
 
