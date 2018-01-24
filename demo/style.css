@@ -1,0 +1,85 @@
+.dashicons-binary {
+    font-family: 'dashicons-extended';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.my-class-name:before{
+	content: "\E001";
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li{
+    float: left;
+    text-align: center;
+}
+ul li:hover{
+    background: #ddd;
+}
+
+#icon-list li{
+	padding: 10px;
+}
+.icon-show-type{
+	clear: both;
+}
+.icon-show-type li span{
+	display: block;
+	padding: 10px;
+}
+.icon-show-type input{
+	display: none;
+}
+.icon-show-type input:checked ~ span{
+	background: #ddd;
+}
+
+i{
+	display: block;
+}
+
+#icon-demo i{
+	float: left;
+    padding-left: 10px;
+}
+.class-name li, .hex li, .binary li{
+	display: none;
+}
+.class-name li.class-name-demo {
+  padding: 20px 10px 0px !important;
+}
+.class-name .class-name-demo{
+	display: block;
+}
+.class-name .class-name-demo i:before {
+  font-size: 2rem;
+  position: relative;
+  top: -10px;
+}
+.hex .hex-demo{
+	display: block;
+}
+.binary .binary-demo{
+	display: block;
+}
+
+.binary .binary-demo pre{
+	display: inline;
+}
+
+.clearfix:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}

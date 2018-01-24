@@ -1,0 +1,38 @@
+{
+  "name": "dashicons-extended",
+  "version": "1.0.0",
+  "description": "A collection of icons intended to be a drop-in replacement that extends the dashicons library in WordPress",
+  "homepage": "https://github.com/cloudverve/dashicons-extended",
+  "author": "Daniel M. Hendricks",
+  "license": "GPL-3.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/dmhendricks/dashicons-extended/issues"
+  },
+  "devDependencies": {
+    "async": "^2.6.0",
+    "gulp": "^3.9.1",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-file": "^0.4.0",
+    "gulp-filter": "^5.1.0",
+    "gulp-iconfont": "^9.1.0",
+    "gulp-iconfont-template": "0.0.3",
+    "gulp-line-ending-corrector": "^1.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sort": "^2.0.0",
+    "gulp-uglifycss": "^1.0.9",
+    "iconfont-glyphs-map": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmhendricks/dashicons-extended.git"
+  },
+  "keywords": [
+    "wordpress",
+    "dashicons",
+    "webfont",
+    "icons"
+  ]
+}
