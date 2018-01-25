@@ -83,3 +83,50 @@ i{
 	clear:both;
 	visibility:hidden
 }
+
+body {
+  margin-top: 1.5em;
+}
+pre {
+  margin-bottom: 0;
+}
+.jumbotron {
+  margin-top: 1em;
+  width: 100%;
+  padding: 1rem;
+}
+.icon-show-type {
+  float: right;
+}
+.dashicons-custom-size {
+  font-size: 2em;
+  height: 1em;
+  /* margin: .3em 0 0 .3em; */
+}
+#tab_content_container {
+  padding: 0 2em 1em;
+}
+#tab_content {
+  width: 100%;
+}
+#nav_tabs {
+  position: relative;
+  margin-top: -2.5em;
+}
+.hidden {
+  display: none;
+}
+.display-class-name, .display-hex-binary {
+  margin-bottom: 1em;
+  text-align: center;
+}
+.display-class-name i, .display-hex-binary i {
+  font-size: 2em;
+  display: block;
+  margin: 0 auto .25em;
+  left: -.1em;
+  position: relative;
+}
+.display-hex-binary i {
+  margin: 0 auto .4em;
+}
