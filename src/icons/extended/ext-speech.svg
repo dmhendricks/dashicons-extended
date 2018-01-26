@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
 <g id="speech">
-	<path d="M12.7,3.8H7.3C4.4,3.8,2,6.2,2,9.1v0.2c0,2.9,2.4,5.3,5.3,5.3h1.9l3.6,2.7v-2.7c2.9,0,5.3-2.4,5.3-5.3V9.1
-		C18,6.2,15.6,3.8,12.7,3.8z M6,6.5h6.5v0.9H6V6.5z M10,11.8H6v-0.9h4V11.8z M14,9.6H6V8.7h8V9.6z"/>
+	<path d="M13.1,2H6.8C3.3,2,0.5,4.9,0.5,8.3v0.2c0,3.4,2.8,6.3,6.3,6.3H9l4.2,3.2v-3.2c3.4,0,6.3-2.8,6.3-6.3V8.3
+		C19.4,4.9,16.5,2,13.1,2z M5.2,5.2h7.7v1.1H5.2V5.2z M9.9,11.5H5.2v-1.1h4.7V11.5z M14.7,8.9H5.2V7.8h9.4V8.9z"/>
 </g>
 </svg>
