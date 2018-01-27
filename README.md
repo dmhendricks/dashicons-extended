@@ -9,9 +9,7 @@
 
 This is a simple **_experiment_** to be a drop-in replacement that extends the [dashicons](https://developer.wordpress.org/resource/dashicons/) library used in WordPress. **I have only added a handful of icons** until I get the process straightened out and tested.
 
-**It should not be used in production.**
-
-[Donations](https://paypal.me/danielhendricks) are appreciated to add more royalty-free icons and to help pay for existing subscriptions.
+**Note:** It is not compatible with [Gutenberg](https://github.com/WordPress/gutenberg), which embeds SVGs inline.
 
 ### Naming Conventions
 
@@ -27,7 +25,7 @@ To keep things simple and compatible, I chose the [GNU GPLv3](https://opensource
 - Standardize naming conventions
 - Add many more icons to the set
 - Finish demo page with filter search
-- Test extensively, figure out what to do with [Gutenberg](https://github.com/WordPress/gutenberg)
+- Figure out if options are available for Gutenberg
 - Add to package manager(s) and CDN
 - Improve documentation/examples
 - Consider Composer autoloader for plugins and themes
@@ -65,7 +63,7 @@ function my_custom_post_type() {
 add_action( 'init', 'my_custom_post_type' );
 ```
 
-**Please** [report bugs](https://github.com/dmhendricks/dashicons-extended/issues) or conflicts that you discover.
+Please [report bugs](https://github.com/dmhendricks/dashicons-extended/issues) or conflicts that you discover.
 
 
 ## Legal
